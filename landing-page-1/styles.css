@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End Reset */
+
+/* General Styles */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Utility Classes */
+.btn {
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  align-self: center;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: hsl(197, 55%, 44%);
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 76px;
+  text-decoration: none;
+  width: 70%;
+  text-align: center;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #d2d0d0 100%);
+  background-color: #f6f6f6;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+/* End Utility Classes */
+
+/* Body Container */
+.main-container {
+  border: 10px solid hsl(197, 75%, 85%);
+  padding: 25px;
+}
+
+/* Nav With Brand */
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-left: 10%;
+  margin-bottom: 25px;
+}
+
+.nav-item h3 {
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.nav-item h5 {
+  font-size: 0.75rem;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: flex-end;
+  height: 80vh;
+  /* Full Size background with a smooth scroll on the picture */
+  background: url("https://cdn.mos.cms.futurecdn.net/uPTkLTkC2kZiKzWGCs7oG3.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-text-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+}
+
+.hero-text-container h1 {
+  font-size: 2.25rem;
+  margin: 10px auto;
+}
+
+.hero-text-container p {
+  font-size: 1rem;
+  margin: 10px auto;
+}
+
+.hero-text-container > .first-p {
+  padding: 30px;
+  border-bottom: 1px solid white;
+}
+.hero-text-container > .second-p {
+  margin-bottom: 30px;
+}
+.hero-text-container p a {
+  text-decoration: none;
+  color: hsl(197, 75%, 85%);
+  cursor: pointer;
+}
