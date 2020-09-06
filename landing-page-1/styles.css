@@ -230,6 +230,7 @@ table {
   cursor: pointer;
 }
 
+/* Section just below hero section */
 .below-hero {
   display: flex;
   flex-direction: column;
@@ -263,7 +264,7 @@ table {
 .below-hero .see-the-suits a {
   width: 50%;
 }
-
+/* Section with three cards and icons with event below with book event button */
 .card-icons-booking {
   display: flex;
   height: 50vh;
@@ -291,6 +292,33 @@ table {
 i {
   margin: 15px auto;
   color: black;
-
   text-align: center;
+}
+
+/*  Below Icons Event section*/
+.bookings-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  text-align: center;
+  height: 25vh;
+  background-color: black;
+  color: white;
+}
+
+.bookings-section h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+  margin-top: 15px;
+}
+
+.bookings-section p {
+  margin: 10px auto;
+}
+
+.bookings-section a {
+  margin: 10px auto;
+  width: 30%;
 }
