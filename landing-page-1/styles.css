@@ -257,9 +257,40 @@ table {
 .below-hero .see-the-suits p {
   font-size: 1.25rem;
   font-weight: 400;
-  margin: 15px auto;
+  margin: 25px auto;
 }
 
 .below-hero .see-the-suits a {
   width: 50%;
+}
+
+.card-icons-booking {
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+}
+
+.icons-section {
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  text-align: center;
+  background-color: #4db8ff;
+  color: black;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 30%;
+  color: black;
+}
+
+i {
+  margin: 15px auto;
+  color: black;
+
+  text-align: center;
 }
