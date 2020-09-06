@@ -237,7 +237,7 @@ table {
   align-items: center;
   justify-content: center;
   margin: 20px auto;
-  height: 15vh;
+  height: 20vh;
   color: black;
 }
 
@@ -263,6 +263,8 @@ table {
 
 .below-hero .see-the-suits a {
   width: 50%;
+  margin: 10px auto;
+  border: 2px solid hsl(197, 75%, 85%);
 }
 /* Section with three cards and icons with event below with book event button */
 .card-icons-booking {
@@ -354,4 +356,52 @@ i {
   width: 23vh;
   height: 35vh;
   margin: 25px auto;
+}
+
+/* In the news section */
+.news-mentions {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.news-text-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.news-text-container p {
+  font-size: 1.25rem;
+}
+
+.news-text-container h2 {
+  font-size: 2.25rem;
+  font-style: italic;
+  padding: 15px;
+}
+
+.news-text-container a {
+  width: 30%;
+}
+
+/* Footer Section */
+.footer {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.social-media-icons {
+  margin: 15px auto;
+}
+
+.social-media-icons i {
+  margin: 0 15px;
 }
