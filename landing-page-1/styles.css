@@ -267,14 +267,14 @@ table {
 /* Section with three cards and icons with event below with book event button */
 .card-icons-booking {
   display: flex;
-  height: 50vh;
+  height: 60vh;
   flex-direction: column;
 }
 
 .icons-section {
   display: flex;
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   text-align: center;
   background-color: #4db8ff;
   color: black;
@@ -287,6 +287,12 @@ table {
   margin: 10px auto;
   width: 30%;
   color: black;
+}
+
+.icon h3 {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid black;
 }
 
 i {
@@ -302,7 +308,7 @@ i {
   justify-content: space-around;
   align-items: space-around;
   text-align: center;
-  height: 25vh;
+  height: 30vh;
   background-color: black;
   color: white;
 }
@@ -321,4 +327,31 @@ i {
 .bookings-section a {
   margin: 10px auto;
   width: 30%;
+}
+
+/* Suit gallery with photo grid of models */
+
+.suit-gallery {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.suit-gallery h2 {
+  font-size: 2rem;
+  margin: 25px auto;
+}
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.photo-grid img {
+  width: 23vh;
+  height: 35vh;
+  margin: 25px auto;
 }
